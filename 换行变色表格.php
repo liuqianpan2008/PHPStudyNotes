@@ -13,9 +13,9 @@
         <?php
             for ($i=0; $i < 10; $i++) {
                 if ($i%2==0) {
-                    echo "<tr style='background: red;'><td>偶数行</td><td>".$i."</td></tr>";
+                    echo "<tr style='background: red;'><td>偶数行</td><td>雅虎</td></tr>";
                 } else {
-                    echo "<tr><td>奇数行</td><td>".$i."</td></tr>";
+                    echo "<tr><td>奇数行</td><td>阿巴阿巴</td></tr>";
                 }
             }
         ?>  
