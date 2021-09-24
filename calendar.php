@@ -30,9 +30,6 @@ echo '<div class="box">';
 //输出月份
 for ($m=1; $m <12 ; $m++) {
     //30或者31天判断
-
-
-
     if ($m==1||$m==3||$m==5||$m==7||$m==8||$m==10||$m==12) {
         $max_day=31;
     } elseif ($m==2) {
@@ -40,8 +37,10 @@ for ($m=1; $m <12 ; $m++) {
     } else {
         $max_day=30;
     }
+    //输出年份
     echo '<table><tr class="title"><th colspan=7>' . $year . ' 年 ' . $m . ' 月</td></tr>';
     echo '<tr><td>日</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td></tr>';
+    
     //输出每月天数
     for ($day=1; $day <= $max_day; $day++) {
         //每月一日换行
